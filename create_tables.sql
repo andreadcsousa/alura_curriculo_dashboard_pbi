@@ -51,6 +51,3 @@ CREATE TABLE `curriculo`.`lazer` (
   `companhia` VARCHAR(50) NULL,
   PRIMARY KEY (`codigo`)
 );
-
-ALTER TABLE `curriculo`.`lazer` 
-CHANGE COLUMN `tempo` `tempo` INT NOT NULL ;
